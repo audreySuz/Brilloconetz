@@ -1,0 +1,12 @@
+<div class="col-md-7 offset-md-3">
+  <h3>Verify Token</h3>
+  <form (ngSubmit)= "onSubmit()">
+
+    <div class="form-group">
+      <label>Enter Token</label>
+      <input type="text" class = "form-control" id ="token"
+             [(ngModel)]="token" name = "token">
+    </div>
+    <button class = "btn btn-success" type="submit">Verify</button>
+  </form>
+</div>
